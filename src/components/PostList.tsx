@@ -1,10 +1,10 @@
 'use client';
 
+import { useState } from "react";
 import Link from "next/link";
 import FeaturedImage from "./FeaturedImage";
 import Date from "./Date";
 import LoadMore from "./LoadMore";
-import { useState } from "react";
 
 export default function PostList({ initialPosts }) {
 

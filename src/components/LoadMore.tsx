@@ -1,5 +1,7 @@
+"use client"
+
+import React, {useState} from "react";
 import { getPostList } from "../lib/posts";
-import { useState } from "react";
 
 export default function LoadMore({posts, setPosts, taxonomy = null}) {
 
