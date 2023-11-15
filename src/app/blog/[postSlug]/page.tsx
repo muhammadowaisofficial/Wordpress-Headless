@@ -62,7 +62,7 @@ export default async function Post({ params }) {
                     <h1 className="text-6xl font-normal text-slate-100 relative z-10 py-8 mt-12">{postData.title}</h1>
 
                     <div className="pb-4 text-slate-100 z-10">
-                        Posted by Abhinav, last updated on <Date dateString={postData.modified} />
+                        Posted by Owais, last updated on <Date dateString={postData.modified} />
                     </div>
 
                     <div dangerouslySetInnerHTML={{ __html: postData.excerpt }} className="relative z-10 text-left text-slate-200 text-2xl pl-4 border-l-4 border-lime-200"/>
