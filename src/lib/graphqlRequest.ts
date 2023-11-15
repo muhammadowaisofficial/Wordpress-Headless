@@ -1,5 +1,5 @@
 export default async function graphqlRequest(query) {
-    const url = "https://muhammadowais1.wpenginepowered.com/graphql";
+    const url = process.env.Wordpress_url;
     const headers = { 'Content-Type': 'application/json' };
 
     if(process.env.WORDPRESS_AUTH_REFRESH_TOKEN) {
