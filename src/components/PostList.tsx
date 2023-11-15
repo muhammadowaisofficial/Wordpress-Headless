@@ -25,7 +25,7 @@ export default function PostList({ initialPosts }) {
                                         <Link href={`/blog/${post.slug}`} className="text-blue-400 text-2xl hover:text-blue-600">{post.title}</Link>
                                     </h2>
                                     <div className="py-4">
-                                        Published on <Date dateString={post.date} />
+                                        Published On <Date dateString={post.date} />
                                     </div>
                                     <div className="text-lg" dangerouslySetInnerHTML={{ __html: post.excerpt }}></div>
                                     <div className="py-4">
