@@ -49,7 +49,7 @@ export default async function Post({ params }) {
 
     // console.log(comments);
 
-    let jsonSchema = seoData.schema.raw.replace(/https:\/\/muhammadowais1.wpenginepowered.com(?!\/wp-content\/uploads)/g, 'http://localhost:3001/blog')
+    let jsonSchema = seoData.schema.raw.replace(/https:\/\/muhammadowais1.wpenginepowered.com(?!\/wp-content\/uploads)/g, 'https://wordpress-headless-one.vercel.app/blog')
 
     return (
         <>
